@@ -1,0 +1,17 @@
+.dodo{
+    margin-top: 5%;
+}
+
+.dodo h1{
+    font-size: 6vh;
+    font-weight: 600;
+    margin-bottom: 4%;
+    color: #262959;
+    margin-left: 3%;
+    margin-top: 15%;
+}
+
+.dodo Button{
+    background: white;
+    color: rgb(13, 12, 27);
+}

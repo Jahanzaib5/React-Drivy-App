@@ -1,0 +1,21 @@
+
+
+.main-one{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 2%;
+}
+
+.main-one h2{
+    font-size: 7vh;
+    font-weight: 600;
+    color: #262959;
+}
+
+h3{
+    text-decoration: none;
+    color: rgb(46, 44, 44);
+    margin-top: 2%;
+    font-size: 20px;
+    font-weight: 600;
+}

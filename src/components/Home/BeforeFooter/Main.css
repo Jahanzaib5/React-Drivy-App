@@ -1,0 +1,55 @@
+.Mokola{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-top: 1px solid rgb(70, 68, 68);
+    border-bottom: 1px solid rgb(70, 68, 68);
+}
+
+.Mokola h1{
+    color: #989898;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10%;
+}
+
+.Mokola p{
+    font-size: 15px;
+    line-height: 180%;
+    color: #4e4d4d;
+    margin-top: -3.5%;
+    
+}
+.bee{
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+.listla{
+    text-decoration: none;
+    text-align: left;
+}
+
+.listla h1{
+    margin-bottom: 20%;
+}
+
+.listla ul{
+    margin-top: 5%;
+    list-style-type: none;
+    text-decoration: none;
+    color: #4e4d4d;
+    line-height: 200%;
+}
+
+.listla ul li{
+    text-align: left;
+    margin-left: -33%;
+    color: #4e4d4d;
+}
+.listla ul li a{
+    color: #4e4d4d;
+    font-size: 15px;
+}
+
+.listla ul li Image{
+    opacity: 0.6;
+}

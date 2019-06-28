@@ -1,0 +1,34 @@
+.Awelo-page{
+    background-image: url('./Capture.JPG');
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 58vh;
+    font-family: 'ProgrammeDrivy', BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
+    color: #262959;
+    width: 100%
+}
+
+.kono{
+    float: right;
+    margin-top: 10%;
+    margin-left: 18%;
+}
+
+.kenu{
+    border: 1px soid black;
+    float: right;
+    margin-top: 5%;
+}
+
+.kenu h2{
+    font-size: 6vh;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+
+.kono button{
+    text-decoration: none;
+    background: #fff;
+}

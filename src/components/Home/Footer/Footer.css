@@ -1,0 +1,31 @@
+.kholi{
+    text-align: left;
+}
+
+.kholi ul{
+    list-style-type: none;
+    margin-left: -6%;
+}
+
+.kholi ul li a p{
+    font-size: 14px;
+}
+
+.kholi ul li{
+    display: table-cell;
+}
+
+.hoski ul{
+    list-style-type: none;
+    color: black;
+}
+
+.hoski ul li{
+    color: black;
+    display: inline;
+}
+
+.hoski ul li a{
+    color: #007bff;;
+    font-size: 12px;
+}

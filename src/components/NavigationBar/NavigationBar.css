@@ -1,0 +1,44 @@
+
+
+.hello{
+    width: 80%;
+    margin-left: 8%;
+    margin-top: -2%;
+}
+
+.hello Image{
+    margin-top: 2%;
+}
+
+.hello .phutu{
+    margin-top: 2%;
+}
+
+.ml-auto{
+    width: 55%;
+    margin-top: 0%;
+
+}
+
+.nada{
+    margin-right: 0%;
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    color: black;
+    margin-top: 4%;
+    height: 50%;
+    margin-bottom: -3.5%;
+}
+
+.er{
+    text-decoration: underline;
+}
+.nada p{
+    color: rgb(68, 63, 63);
+}
+
+.nada:hover p{
+    color: rgb(156, 150, 150);
+}

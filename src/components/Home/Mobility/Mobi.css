@@ -1,0 +1,34 @@
+.Nogh-page{
+    background-image: url('./Capturel.JPG');
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120vh;
+    font-family: 'ProgrammeDrivy', BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #262959;
+    width: 100%
+}
+
+.Mean{
+    margin-top: 6%;
+    text-align: center;
+}
+
+.Mean h1{
+    font-size: 7vh;
+    font-weight: 600;
+    margin-bottom: 2%;
+    color: #262959;
+}
+
+.Mean h2{
+    font-size: 8vh;
+    font-weight: 700;
+    margin-bottom: 3%;
+    color: #10cfdd;
+}
+
+.Mean Button{
+    background: white;
+    color: black;
+}
