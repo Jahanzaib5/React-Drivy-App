@@ -6,6 +6,9 @@ import {Contact} from './components/Contact/Contact';
 import {NoMatch} from './components/NoMatch';
 import { Layout } from './components/Layout';
 import {NavigationBar} from './components/NavigationBar/NavigationBar';
+import Moreto from './components/Home/More/More';
+import Mainly from './components/Home/BeforeFooter/Main';
+import Footer from './components/Home/Footer/Footer';
 
 
 
@@ -22,6 +25,9 @@ class App extends Component {
               <Route path="/" component={NoMatch} />
             </Switch>
           </Router>
+        <Moreto />
+        <Mainly />
+        <Footer />
       </React.Fragment>
     );
   }
