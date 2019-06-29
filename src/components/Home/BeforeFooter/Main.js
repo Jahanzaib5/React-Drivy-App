@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "reactstrap";
 import "./Main.css";
-import Image from 'react-bootstrap/Image'
+import Image from 'react-bootstrap/Image';
 import Tong from './01.jpg';
 import Pochi from './02.svg';
 
