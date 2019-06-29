@@ -22,7 +22,7 @@ export default class Forma extends Component {
           <Row>
             <Col xs="6">.col-6</Col>
             <Col xs="6">
-                <Image src={Pic} height='30' alt='Apple'/>
+                <Image src={Pic} height='500' alt='Apple'/>
             </Col>
           </Row>
         </Container>

@@ -8,7 +8,7 @@ import Apple from './logo.svg';
  
 
 export const NavigationBar = () => (
-    <Container-fluid className='hooman'>
+    <div className='hooman'>
         <Navbar expand='lg' className='hello'>
             <Navbar.Brand className="phutu" href="/"><Image src={Apple} height='25' alt='Apple'/></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -21,5 +21,5 @@ export const NavigationBar = () => (
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
-    </Container-fluid>
+    </div>
 )

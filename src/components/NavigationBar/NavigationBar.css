@@ -1,5 +1,7 @@
 
-
+.hooman{
+    border-bottom: 1px solid rgb(201, 197, 197);
+}
 .hello{
     width: 80%;
     margin-left: 8%;
