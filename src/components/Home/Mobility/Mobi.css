@@ -6,7 +6,8 @@
     height: 120vh;
     font-family: 'ProgrammeDrivy', BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
     color: #262959;
-    width: 100%
+    width: 100%;
+    margin-bottom: -6%;
 }
 
 .Mean{

@@ -1,5 +1,4 @@
 import React from "react";
-import { Jumbotron, Container, Button, Col, Row } from "react-bootstrap";
 import "./Home.css";
 import FirstPage from './FirstPage/FirstPage';
 import SecondPage from './SecondPage/SecondPage';

@@ -1,6 +1,4 @@
-.kontainer{
-    border: 1px solid red;
-}
+
 
 .onForm h1{
     text-align: center;
@@ -11,4 +9,41 @@
     font-size: 44px;
     font-weight: 600;
     color: #262959;
+}
+
+.myForm{
+    margin-left: 0%;
+    margin-bottom: 4%;
+}
+
+.onForm h2{
+    text-align: center;
+    float: center;
+    margin-left: 0%;
+    margin-bottom: 3%;
+    font-size: 30px;
+    font-weight: 600;
+    color: #262959;
+}
+
+.onForm p{
+    color: #989898;
+    text-transform: uppercase;
+    margin-top: -2%;
+    font-size: 14px;
+    text-align: center;
+}
+
+.onForm Button{
+    background-color: #262959;
+    color: #ddd8d8;
+    margin-top: 3%;
+}
+
+.onForm Button:hover{
+    background-color: #3d4286;
+}
+
+.offGrid{
+    margin-bottom: 4%;
 }

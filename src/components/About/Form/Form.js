@@ -14,7 +14,7 @@ export default class Forma extends Component {
             <Col xs="6" className='onForm'>
               <h1>Let your car work for you</h1>
               <Form className='myForm'>
-                <Row form>
+                <Row form className='offGrid'>
                   <Col md={6}>
                     <FormGroup>
                       <Input type="select" name="select" id="exampleSelect">
@@ -38,7 +38,7 @@ export default class Forma extends Component {
                     </FormGroup>
                   </Col>
                 </Row>
-                <Row form>
+                <Row form className='offGrid'>
                   <Col md={6}>
                     <FormGroup>
                       <Input type="select" name="select" id="exampleSelect">
@@ -62,7 +62,7 @@ export default class Forma extends Component {
                     </FormGroup>
                   </Col>
                 </Row>
-                <Row form>
+                <Row form className='offGrid'>
                   <Col md={6}>
                     <FormGroup>
                       <Input type="select" name="select" id="exampleSelect">
@@ -83,11 +83,9 @@ export default class Forma extends Component {
                   <p>Estimated per month</p>
                 </Col>
                 <Col xs="6">
-                  <Button color="primary" size="lg" block>Block level button</Button>
+                  <Button color="primary" size="lg" block>Get Started</Button>
                 </Col>
               </Row>
-
-
             </Col>
             <Col xs="6">
               <Image src={Pic} height="500" alt="Apple" />
