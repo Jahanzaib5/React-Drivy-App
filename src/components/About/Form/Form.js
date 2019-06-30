@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
 import { Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";
-
 import "./Form.css";
 import Pic from "./01.JPG";
 import Image from "react-bootstrap/Image";
@@ -10,11 +9,11 @@ export default class Forma extends Component {
   render() {
     return (
       <div>
-        <Container>
+        <Container className='kontainer'>
           <Row>
-            <Col xs="6">
-              <h1>This can take you to places</h1>
-              <Form>
+            <Col xs="6" className='onForm'>
+              <h1>Let your car work for you</h1>
+              <Form className='myForm'>
                 <Row form>
                   <Col md={6}>
                     <FormGroup>
@@ -77,6 +76,18 @@ export default class Forma extends Component {
                   </Col>
                 </Row>
               </Form>
+
+              <Row>
+                <Col xs="6">
+                  <h2>£462</h2>
+                  <p>Estimated per month</p>
+                </Col>
+                <Col xs="6">
+                  <Button color="primary" size="lg" block>Block level button</Button>
+                </Col>
+              </Row>
+
+
             </Col>
             <Col xs="6">
               <Image src={Pic} height="500" alt="Apple" />
