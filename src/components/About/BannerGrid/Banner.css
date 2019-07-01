@@ -2,6 +2,7 @@
     border-top: 1px solid rgb(151, 148, 148);
     border-bottom: 1px solid rgb(151, 148, 148);
     margin-bottom: 3%;
+    box-shadow: 5px 3px 4px #888888;
 }
 
 .Ban h3{
