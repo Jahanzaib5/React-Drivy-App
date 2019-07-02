@@ -1,0 +1,29 @@
+.second-page{
+    border-bottom: 1px solid rgb(146, 143, 143);
+    margin-bottom: 2%;
+    padding-bottom: 5%;
+}
+
+.second-page h1{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 36px;
+    color: rgb(38, 41, 89);
+    margin-bottom: 15px;
+    text-align: cente;
+}
+
+.second-page .root{
+    text-align: center;
+    float: right;
+    margin-left: 26%;
+    margin-bottom: 4%;
+}
+
+.second-page .root p{
+    font-size: 17px;
+    line-height: 24px;
+    color: rgb(163, 163, 167);
+    font-weight: 600;
+
+}
