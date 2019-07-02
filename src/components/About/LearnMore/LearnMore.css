@@ -1,0 +1,27 @@
+.fifth-page{
+    color: white;
+    background: rgb(38, 41, 89);
+}
+
+.fifth-page h3{
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-bottom: 16px;
+}
+
+.konee{
+    border: 1px solid red;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.fifth-page .flea{
+    text-align: left;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 36px;
+}
