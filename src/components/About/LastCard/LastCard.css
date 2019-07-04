@@ -1,0 +1,28 @@
+.meen{
+    margin-bottom: 4%;
+}
+
+.gaikondo h1{
+    margin-top: 5%;
+    margin-bottom: 4%;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 36px;
+    color: rgb(38, 41, 89);
+    text-align: center;
+}
+
+.belkondo h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    color: #262959;
+    margin-top: 4%;
+    margin-left: 3%
+}
+
+.belkondo p{
+    font-size: 15px;
+    color: #333;
+    margin-left: 3%;
+}
