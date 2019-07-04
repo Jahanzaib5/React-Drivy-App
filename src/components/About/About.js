@@ -5,6 +5,7 @@ import Tab from './Tab/Tab';
 import CardBox from './CardBox/CardBox';
 import LearnMore from './LearnMore/LearMore';
 import LastCard from './LastCard/LastCard';
+import Team from './Team/Team';
 
 
 export const About = () => (
@@ -20,6 +21,9 @@ export const About = () => (
       </div>
       <div>
         <Tab />
+      </div>
+      <div>
+        <Team />
       </div>
       <div>
         <LearnMore />
