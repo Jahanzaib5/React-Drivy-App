@@ -1,6 +1,7 @@
 .fifth-page{
     color: white;
     background: rgb(38, 41, 89);
+    margin-bottom: 2%;
 }
 
 .fifth-page h3{
@@ -11,8 +12,14 @@
     padding-bottom: 16px;
 }
 
+.fifth-page p{
+    font-size: 15px;
+    line-height: 24px;
+    padding-bottom: 32px;
+    opacity: 0.5;
+}
+
 .konee{
-    border: 1px solid red;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -24,4 +31,15 @@
     font-size: 32px;
     font-weight: 600;
     line-height: 36px;
+}
+
+.fifth-page button{
+    background: rgb(38, 41, 89);
+    border:1px solid white;
+    margin-bottom: 2%;
+}
+
+.fifth-page button:hover{
+    background: white;
+    color: rgb(38, 41, 89);
 }
