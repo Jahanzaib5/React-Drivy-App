@@ -3,7 +3,7 @@ import { Container, Row, Col } from "reactstrap";
 import Image from "react-bootstrap/Image";
 import ee from './Capture.JPG';
 import juu from './Capture2.JPG';
-import troi from './Capture.JPG';
+import troi from './Capture3.JPG';
 import './Team.css';
 
 
@@ -35,7 +35,7 @@ export default class Team extends Component {
 
 
                         <h4 class="card-title">Keylor Navas</h4>
-                        <a href="#" class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>  79</a>
+                        <a>  79</a>
                         <p class="card-text">I've been on Drivy for 6 months now and my Open rentals help finance my car leasing contract and my parking, while still leaving a profit of about £250. I only use my Mini occasionally and use a scooter the rest of the time.</p>
                     </div>
                     <div class="card-footer">
@@ -60,7 +60,7 @@ export default class Team extends Component {
                         </div>
 
                         <h4 class="card-title">Van Dijk</h4>
-                        <a href="#" class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>  22</a>
+                        <a>  22</a>
                         <p class="card-text">I added a new car a week ago, super easy rentals and fleet management thanks to the Open technology. I am now working full time on Drivy and hope to add another 5 vehicles this year.</p>
                     </div>
                     <div class="card-footer">
@@ -85,7 +85,7 @@ export default class Team extends Component {
                         </div>
 
                         <h4 class="card-title">Natasha Romanov</h4>
-                        <a href="#" class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>  11</a>
+                        <a> 11</a>
                         <p class="card-text">Very happy with the ease of the app, I am now seeing an increase in my rental requests thanks to previous drivers leaving good reviews for me and my car. It's the best way to earn extra money on the side.</p>
                     </div>
                     <div class="card-footer">

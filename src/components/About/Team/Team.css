@@ -1,5 +1,6 @@
 .fourth-page{
     margin-top: 4%;
+    margin-bottom: 2%;
 }
 
 .fourth-page h2{
@@ -17,4 +18,34 @@
     line-height: 24px;
     color: #989898;
     margin-top: 23%;
+}
+
+.card-footer{
+    text-align: center;
+}
+
+.card-footer h2{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #262959;
+
+}
+
+.card-footer p{
+    font-size: 15px;
+    line-height: 24px;
+    color: #696868;
+}
+
+.card-body h4{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #262959;
+    margin-top: 3%;
+}
+
+.card-text{
+    margin-top: 1%;
 }
