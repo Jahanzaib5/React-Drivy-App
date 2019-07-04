@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
 import Card from 'react-bootstrap/Card';
+import Image from "react-bootstrap/Image";
+import uno from './01.JPG';
+import jwo from './02.JPG';
 
 export default class LastCard extends Component {
   render() {
@@ -9,7 +12,7 @@ export default class LastCard extends Component {
         <Row>
           <Col xs="6">
             <Card>
-              <Card.Img variant="top" src="" />
+              <Image src={uno} height="180" alt="Apple" />
               <Card.Body>
                 <Card.Text>
                   Some quick example text to build on the card title and make up
@@ -20,7 +23,7 @@ export default class LastCard extends Component {
           </Col>
           <Col xs="6">
             <Card>
-              <Card.Img variant="top" src="holder.js/100px180" />
+              <Image src={jwo} height="180" alt="Apple" />
               <Card.Body>
                 <Card.Text>
                   Some quick example text to build on the card title and make up
