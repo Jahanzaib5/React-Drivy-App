@@ -2,6 +2,6 @@ import React from 'react';
 
 export const NoMatch = () => (
     <div>
-        <h2>this is No match page</h2>
+        <h2>No Questions accepted at the moment</h2>
     </div>
 )

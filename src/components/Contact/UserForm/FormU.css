@@ -1,0 +1,15 @@
+.asli{
+    border: 1px solid black;
+    float: center;
+}
+
+.main-tab{
+    border: 1px solid red;
+    float: center;
+    width: 35%;
+    margin-left: 35%;
+}
+
+.top-tab{
+    border: 1px solid yellow;
+}
