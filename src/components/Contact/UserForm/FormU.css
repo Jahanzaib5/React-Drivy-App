@@ -10,6 +10,20 @@
     margin-left: 35%;
 }
 
+.top-tab h1{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #262959;
+    margin-bottom: 10%;
+}
+
 .top-tab{
     border: 1px solid yellow;
+    margin-top: 7%;
+}
+
+.top-tab Button .one{
+    border: 1px solid red;
+    margin-bottom: 5%;
 }

@@ -28,10 +28,10 @@ export default class FormU extends Component {
               <Tabs className='main-tab' defaultActiveKey="profile" id="uncontrolled-tab-example">
                 <Tab className='top-tab' eventKey="home" title="SIGN IN">
                   <h1>Login to your account</h1>
-                  <Button outline color="secondary" size="lg" block>
+                  <Button className='one' outline color="secondary" size="lg" block>
                     <Image src={google} height="32" alt="Apple" />
                   </Button>{" "}
-                  <Button outline color="secondary" size="lg" block>
+                  <Button className='two' outline color="secondary" size="lg" block>
                     <Image src={facebook} height="32" alt="Apple" />
                   </Button>{" "}
                   <p>or</p>
