@@ -31,54 +31,86 @@ export default class FormU extends Component {
                 id="uncontrolled-tab-example"
               >
                 <Tab className="top-tab" eventKey="home" title="SIGN IN">
-                  <h1>Login to your account</h1>
-                  <Button outline color="secondary" size="lg" block>
-                    <Image src={google} height="32" alt="Apple" />
-                  </Button>{" "}
-                  <div className="faceb">
-                    <Button outline color="secondary" size="lg" block>
-                      <Image src={facebook} height="32" alt="Apple" />
-                    </Button>{" "}
+                  <div id="sign-in">
+                    <h1>Login to your account</h1>
+                    <div id="sign-in">
+                      <Button outline color="secondary" size="lg" block>
+                        <Image src={google} height="32" alt="Apple" />
+                      </Button>{" "}
+                    </div>
+                    <div className="faceb">
+                      <Button outline color="secondary" size="lg" block>
+                        <Image src={facebook} height="32" alt="Apple" />
+                      </Button>{" "}
+                    </div>
+                    <h4>or</h4>
+                    <FormGroup>
+                      <Input placeholder="Email" bsSize="lg" />
+                    </FormGroup>
+                    <FormGroup>
+                      <Input placeholder="Password" bsSize="lg" />
+                    </FormGroup>
+                    <h3>
+                      <a href="#">Forgotten password</a>
+                    </h3>
+                    <div className="khan">
+                      <Button outline color="secondary" size="lg" block>
+                        Sign in
+                      </Button>{" "}
+                    </div>
+                    <h2>
+                      Don't have an account?<a href="/contact"> Sign up</a>
+                    </h2>
                   </div>
-                  <h4>or</h4>
-                  <FormGroup>
-                    <Input placeholder="Email" bsSize="lg" />
-                  </FormGroup>
-                  <FormGroup>
-                    <Input placeholder="Password" bsSize="lg" />
-                  </FormGroup>
-                  <h3>
-                    <a href="#">Forgotten password</a>
-                  </h3>
-                  <div className="khan">
-                    <Button outline color="secondary" size="lg" block>
-                      Sign in
-                    </Button>{" "}
-                  </div>
-                  <h2>
-                    Don't have an account?<a href="#"> Sign up</a>
-                  </h2>
                 </Tab>
 
                 <Tab className="top-tab" eventKey="profile" title="SIGN UP">
-                  <h1>Create your account</h1>
-                  <Button outline color="secondary" size="lg" block>
-                    <Image src={google} height="32" alt="Apple" />
-                  </Button>{" "}
-                  <div className="faceb">
+                  <div id="sign-up">
+                    <h1>Create your account</h1>
                     <Button outline color="secondary" size="lg" block>
-                      <Image src={facebook} height="32" alt="Apple" />
+                      <Image src={google} height="32" alt="Apple" />
                     </Button>{" "}
+                    <div className="faceb">
+                      <Button outline color="secondary" size="lg" block>
+                        <Image src={facebook} height="32" alt="Apple" />
+                      </Button>{" "}
+                    </div>
+                    <h4>or</h4>
+                    <FormGroup>
+                      <Input placeholder="First Name" bsSize="lg" />
+                    </FormGroup>
+                    <FormGroup>
+                      <Input placeholder="Last Name" bsSize="lg" />
+                    </FormGroup>
+                    <FormGroup>
+                      <Input placeholder="Email" bsSize="lg" />
+                    </FormGroup>
+                    <FormGroup>
+                      <Input placeholder="Password" bsSize="lg" />
+                    </FormGroup>
+                    <div className="check-box">
+                      <FormGroup check>
+                        <Label check>
+                          <Input type="checkbox" /> I agree with the{" "}
+                          <a href="#">privacy policy</a>
+                        </Label>
+                      </FormGroup>
+                      <FormGroup check>
+                        <Label check>
+                          <Input type="checkbox" /> I would like to recieve the
+                          Drivy news letter and weekly megazine
+                        </Label>
+                      </FormGroup>
+                    </div>
+                    <div className="Email">
+                      <Button outline color="secondary" size="lg" block>
+                        Confirm
+                      </Button>{" "}
+                    </div>
+                    <h2>
+                      Already have an account?<a href="#sign-in"> Sign in</a>
+                    </h2>
                   </div>
-                  <h4>or</h4>
-                  <div className="Email">
-                    <Button outline color="secondary" size="lg" block>
-                      Sign up with Email
-                    </Button>{" "}
-                  </div>
-                  <h2>
-                    Already have an account?<a href="#"> Sign in</a>
-                  </h2>
                 </Tab>
               </Tabs>
               <hr className="my-2" />

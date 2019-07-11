@@ -58,13 +58,14 @@
 }
 
 .top-tab .Email Button{
-    background-color: white;
-    color: black;
+    background-color: #385898;
+    color: white;
     margin-bottom: 4%;
+    margin-top: 6%;
 }
 
 .top-tab .Email Button:hover{
-    background: #eeeff1;
+    background: #2e487c;
 }
 
 .top-tab h2{
