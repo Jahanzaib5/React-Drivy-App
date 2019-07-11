@@ -50,9 +50,11 @@ export default class FormU extends Component {
                   <h3>
                     <a href="#">Forgotten password</a>
                   </h3>
-                  <Button outline color="secondary" size="lg" block>
-                    Sign in
-                  </Button>{" "}
+                  <div className="khan">
+                    <Button outline color="secondary" size="lg" block>
+                      Sign in
+                    </Button>{" "}
+                  </div>
                   <h2>
                     Don't have an account?<a href="#"> Sign up</a>
                   </h2>
@@ -88,13 +90,13 @@ export default class FormU extends Component {
                   <div className="Foot">
                     <ul>
                       <li>
-                        <a href="#">terms of service</a>
+                        <a href="#">.Terms of service </a>
                       </li>
                       <li>
-                        <a href="#">privacy policy</a>
+                        <a href="#"> .privacy policy</a>
                       </li>
                       <li>
-                        <a href="#">cookies</a>
+                        <a href="#"> .cookies</a>
                       </li>
                     </ul>
                   </div>
