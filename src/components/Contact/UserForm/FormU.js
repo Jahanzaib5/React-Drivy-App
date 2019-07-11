@@ -54,7 +54,7 @@ export default class FormU extends Component {
                     Sign in
                   </Button>{" "}
                   <h2>
-                    Don't have an account?<a href="#">Sign up</a>
+                    Don't have an account?<a href="#"> Sign up</a>
                   </h2>
                 </Tab>
 
@@ -75,13 +75,13 @@ export default class FormU extends Component {
                     </Button>{" "}
                   </div>
                   <h2>
-                    Already have an account?<a href="#">Sign in</a>
+                    Already have an account?<a href="#"> Sign in</a>
                   </h2>
                 </Tab>
               </Tabs>
               <hr className="my-2" />
-              <Row>
-                <Col xs="6">
+              <Row className="Foot">
+                <Col className='Foot' xs="6">
                   <p>© Drivy 2010-2019 - All rights reserved</p>
                 </Col>
                 <Col xs="6">
