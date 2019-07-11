@@ -28,13 +28,15 @@ export default class FormU extends Component {
               <Tabs className='main-tab' defaultActiveKey="profile" id="uncontrolled-tab-example">
                 <Tab className='top-tab' eventKey="home" title="SIGN IN">
                   <h1>Login to your account</h1>
-                  <Button className='one' outline color="secondary" size="lg" block>
+                  <Button outline color="secondary" size="lg" block>
                     <Image src={google} height="32" alt="Apple" />
                   </Button>{" "}
-                  <Button className='two' outline color="secondary" size="lg" block>
-                    <Image src={facebook} height="32" alt="Apple" />
-                  </Button>{" "}
-                  <p>or</p>
+                  <div className='faceb'>
+                    <Button outline color="secondary" size="lg" block>
+                        <Image src={facebook} height="32" alt="Apple" />
+                    </Button>{" "}
+                  </div>
+                  <h4>or</h4>
                   <FormGroup>
                     <Input placeholder="Email" bsSize="lg" />
                   </FormGroup>
@@ -57,13 +59,17 @@ export default class FormU extends Component {
                   <Button outline color="secondary" size="lg" block>
                     <Image src={google} height="32" alt="Apple" />
                   </Button>{" "}
-                  <Button outline color="secondary" size="lg" block>
-                    <Image src={facebook} height="32" alt="Apple" />
-                  </Button>{" "}
-                  <p>or</p>
-                  <Button outline color="secondary" size="lg" block>
-                    Sign up with Email
-                  </Button>{" "}
+                  <div className='faceb'>
+                    <Button outline color="secondary" size="lg" block>
+                        <Image src={facebook} height="32" alt="Apple" />
+                    </Button>{" "}
+                  </div>
+                  <h4>or</h4>
+                  <div className='Email'>
+                    <Button outline color="secondary" size="lg" block>
+                        Sign up with Email
+                    </Button>{" "}
+                </div>
                   <h2>
                     Already have an account?<a href="#">Sign in</a>
                   </h2>

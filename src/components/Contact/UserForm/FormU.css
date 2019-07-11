@@ -1,10 +1,8 @@
 .asli{
-    border: 1px solid black;
     float: center;
 }
 
 .main-tab{
-    border: 1px solid red;
     float: center;
     width: 35%;
     margin-left: 35%;
@@ -19,11 +17,51 @@
 }
 
 .top-tab{
-    border: 1px solid yellow;
     margin-top: 7%;
 }
 
-.top-tab Button .one{
+
+
+.top-tab .faceb Button{
+    margin-top: 3%;
+    background: #385898;
+}
+
+.top-tab Button{
+    background: white;
+    text-decoration: none;
+}
+
+.top-tab Button:hover{
+    background: white;
+}
+
+.top-tab .faceb Button:hover{
+    padding-top: -1%;
+    background: #385898;
+    
+}
+
+.top-tab h4{
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    color: rgb(116, 111, 111);
+    font-size: 18px;
+}
+
+.top-tab h3{
+    margin-bottom: 6%;
+    margin-top: -1%;
+    font-size: 15px;
+}
+
+.top-tab .Email Button{
     border: 1px solid red;
-    margin-bottom: 5%;
+    background-color: #283b61;
+    color: white;
+}
+
+.top-tab .Email Button:hover{
+    background: #283b61;
 }
