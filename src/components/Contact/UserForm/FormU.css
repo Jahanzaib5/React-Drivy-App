@@ -78,6 +78,12 @@ p{
     color: rgb(100, 98, 98);
 }
 
-ul{
+.Foot ul{
     border: 1px solid red;
+    list-style-type: none;
+    display: table-cell;
+}
+
+.Foot ul li{
+    display: table-cell;
 }

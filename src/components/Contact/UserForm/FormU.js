@@ -80,22 +80,24 @@ export default class FormU extends Component {
                 </Tab>
               </Tabs>
               <hr className="my-2" />
-              <Row className="Foot">
-                <Col className='Foot' xs="6">
+              <Row>
+                <Col xs="6">
                   <p>© Drivy 2010-2019 - All rights reserved</p>
                 </Col>
                 <Col xs="6">
-                  <ul>
-                    <li>
-                      <a href="#">terms of service</a>
-                    </li>
-                    <li>
-                      <a href="#">privacy policy</a>
-                    </li>
-                    <li>
-                      <a href="#">cookies</a>
-                    </li>
-                  </ul>
+                  <div className="Foot">
+                    <ul>
+                      <li>
+                        <a href="#">terms of service</a>
+                      </li>
+                      <li>
+                        <a href="#">privacy policy</a>
+                      </li>
+                      <li>
+                        <a href="#">cookies</a>
+                      </li>
+                    </ul>
+                  </div>
                 </Col>
               </Row>
             </Col>
