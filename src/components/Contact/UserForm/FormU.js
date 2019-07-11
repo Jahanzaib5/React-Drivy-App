@@ -24,16 +24,20 @@ export default class FormU extends Component {
       <div>
         <Container>
           <Row>
-            <Col className='asli' xs="6">
-              <Tabs className='main-tab' defaultActiveKey="profile" id="uncontrolled-tab-example">
-                <Tab className='top-tab' eventKey="home" title="SIGN IN">
+            <Col className="asli" xs="6">
+              <Tabs
+                className="main-tab"
+                defaultActiveKey="profile"
+                id="uncontrolled-tab-example"
+              >
+                <Tab className="top-tab" eventKey="home" title="SIGN IN">
                   <h1>Login to your account</h1>
                   <Button outline color="secondary" size="lg" block>
                     <Image src={google} height="32" alt="Apple" />
                   </Button>{" "}
-                  <div className='faceb'>
+                  <div className="faceb">
                     <Button outline color="secondary" size="lg" block>
-                        <Image src={facebook} height="32" alt="Apple" />
+                      <Image src={facebook} height="32" alt="Apple" />
                     </Button>{" "}
                   </div>
                   <h4>or</h4>
@@ -54,22 +58,22 @@ export default class FormU extends Component {
                   </h2>
                 </Tab>
 
-                <Tab className='top-tab' eventKey="profile" title="SIGN UP">
+                <Tab className="top-tab" eventKey="profile" title="SIGN UP">
                   <h1>Create your account</h1>
                   <Button outline color="secondary" size="lg" block>
                     <Image src={google} height="32" alt="Apple" />
                   </Button>{" "}
-                  <div className='faceb'>
+                  <div className="faceb">
                     <Button outline color="secondary" size="lg" block>
-                        <Image src={facebook} height="32" alt="Apple" />
+                      <Image src={facebook} height="32" alt="Apple" />
                     </Button>{" "}
                   </div>
                   <h4>or</h4>
-                  <div className='Email'>
+                  <div className="Email">
                     <Button outline color="secondary" size="lg" block>
-                        Sign up with Email
+                      Sign up with Email
                     </Button>{" "}
-                </div>
+                  </div>
                   <h2>
                     Already have an account?<a href="#">Sign in</a>
                   </h2>
@@ -77,13 +81,21 @@ export default class FormU extends Component {
               </Tabs>
               <hr className="my-2" />
               <Row>
-                <Col xs="6"><p>© Drivy 2010-2019 - All rights reserved</p></Col>
                 <Col xs="6">
-                    <ul>
-                        <li><a href="#">terms of service</a></li>
-                        <li><a href="#">privacy policy</a></li>
-                        <li><a href="#">cookies</a></li>
-                    </ul>
+                  <p>© Drivy 2010-2019 - All rights reserved</p>
+                </Col>
+                <Col xs="6">
+                  <ul>
+                    <li>
+                      <a href="#">terms of service</a>
+                    </li>
+                    <li>
+                      <a href="#">privacy policy</a>
+                    </li>
+                    <li>
+                      <a href="#">cookies</a>
+                    </li>
+                  </ul>
                 </Col>
               </Row>
             </Col>
