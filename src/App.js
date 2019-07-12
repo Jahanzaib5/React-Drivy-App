@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import {Home} from './components/Home/Home';
 import {About} from './components/About/About';
-import {NoMatch} from './components/NoMatch';
+import {NoMatch} from './components/NoMatch/NoMatch';
 import {NavigationBar} from './components/NavigationBar/NavigationBar';
 import Moreto from './components/Home/More/More';
 import Mainly from './components/Home/BeforeFooter/Main';

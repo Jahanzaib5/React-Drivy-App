@@ -1,7 +1,8 @@
 import React from 'react';
+import Login from './Login';
 
 export const NoMatch = () => (
     <div>
-        <h2>No Questions accepted at the moment</h2>
+        <Login />
     </div>
 )
