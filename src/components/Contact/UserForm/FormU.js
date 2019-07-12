@@ -24,7 +24,7 @@ export default class FormU extends Component {
       <div>
         <Container>
           <Row>
-            <Col className="asli" xs="6">
+            <Col sm="12" md={{ size: 6, offset: 3 }} className="asli">
               <Tabs
                 className="main-tab"
                 defaultActiveKey="profile"
@@ -135,9 +135,9 @@ export default class FormU extends Component {
                 </Col>
               </Row>
             </Col>
-            <Col xs="6">
-              <Image src={palogh} height="90%" alt="Apple" />
-            </Col>
+            {/* <Col xs="6">
+              <Image src={palogh} height="90" alt="Apple" />
+            </Col> */}
           </Row>
         </Container>
       </div>
