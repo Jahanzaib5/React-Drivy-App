@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import './SignIn.css';
-
+import "./SignIn.css";
 
 const formValid = ({ formErrors, ...rest }) => {
   let valid = true;
@@ -36,39 +35,49 @@ class SignIn extends Component {
     };
   }
 
-
-  
-
-
-
   handleSubmit = e => {
     e.preventDefault();
 
     if (formValid(this.state)) {
-      var store = (`
-        username : ${this.state.username}
-        full_name: ${this.state.full_name}
-        phone: ${this.state.phone}
-        password: ${this.state.password}
-      `);
-      console.log('Valid form');
+      // var store = `
+      //   username : ${this.state.username}
+      //   full_name: ${this.state.full_name}
+      //   phone: ${this.state.phone}
+      //   password: ${this.state.password}
+      //   usertype: '3'
+      //   api_key: '1234'
 
-     
+      // `;
+      console.log("Valid form");
 
-      fetch(`http://www.passenger.pk/api/user/sign-up?api_key=1234&usertype=3`, {
-            method: 'post',
-            headers : new Headers(),
-            body: JSON.stringify(store)
-        })
-        .then(function(response){
-            return response.json()
-        })
-        .then(function(data){
-            console.log('The data', data);
-            console.log(store);
-        })
-       
+      var formData = new FormData();
+      formData.append("username", this.state.username);
+      formData.append("full_name", this.state.full_name);
+      formData.append("phone", this.state.phone);
+      formData.append("password", this.state.password);
+      formData.append("usertype", "3");
+      formData.append("api_key", "1234");
 
+
+      fetch(
+        `http://www.passenger.pk/api/user/sign-up`,
+        {
+          method: "post",
+          body: formData
+        }
+      )
+        .then(function(response) {
+          return response.json();
+        })
+        .then(function(data) {
+          console.log("The data", data);
+        });
+      
+        this.state = {
+          username: null,
+          full_name: null,
+          phone: null,
+          password: null};
 
     } else {
       console.error("FORM INVALID - DISPLAY ERROR MESSAGE");
@@ -90,7 +99,8 @@ class SignIn extends Component {
           value.length < 3 ? "minimum 3 characaters required" : "";
         break;
       case "phone":
-        formErrors.phone = value.length === 234423423343 ? 'invalid phone number' : "";
+        formErrors.phone =
+          value.length === 234423423343 ? "invalid phone number" : "";
         break;
       case "password":
         formErrors.password =
@@ -107,11 +117,10 @@ class SignIn extends Component {
     const { formErrors } = this.state;
 
     return (
-      
       <div className="wrapper">
         <div className="form-wrapper">
           <h1>Create Account</h1>
-          <form className='forme' onSubmit={this.handleSubmit} noValidate>
+          <form className="forme" onSubmit={this.handleSubmit} noValidate>
             <div className="firstName">
               <label htmlFor="username">User Name</label>
               <input
