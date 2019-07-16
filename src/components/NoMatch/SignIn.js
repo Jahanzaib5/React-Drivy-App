@@ -72,12 +72,13 @@ class SignIn extends Component {
         .then(function(data) {
           console.log("The data", data);
         });
+
+      e.target.elements.username.value = null;
+      e.target.elements.full_name.value = null;
+      e.target.elements.phone.value = null;
+      e.target.elements.password.value = null;
+
       
-        this.state = {
-          username: null,
-          full_name: null,
-          phone: null,
-          password: null};
 
     } else {
       console.error("FORM INVALID - DISPLAY ERROR MESSAGE");
