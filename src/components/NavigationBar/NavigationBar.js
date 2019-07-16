@@ -15,7 +15,7 @@ export const NavigationBar = () => (
                 <Nav className="ml-auto">
                     <Nav.Item className="nada"><Nav.Link href="/"><p>For Business</p></Nav.Link></Nav.Item>
                     <Nav.Item className="nada"><Nav.Link href='contact'><p>Sign in</p></Nav.Link></Nav.Item>
-                    <Nav.Item className="nada"><Nav.Link href="nomatch"><p>Any Questions?</p></Nav.Link></Nav.Item>
+                    <Nav.Item className="nada"><Nav.Link href="nomatch"><p>Sign up</p></Nav.Link></Nav.Item>
                     <Nav.Item className="nada er"><Nav.Link href="about"><p>Hire out your Car</p></Nav.Link></Nav.Item>
                 </Nav>
             </Navbar.Collapse>

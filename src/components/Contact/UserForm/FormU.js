@@ -19,6 +19,8 @@ import {
 } from "reactstrap";
 
 export default class FormU extends Component {
+
+  
   render() {
     return (
       <div>
@@ -45,10 +47,10 @@ export default class FormU extends Component {
                     </div>
                     <h4>or</h4>
                     <FormGroup>
-                      <Input placeholder="Email" bsSize="lg" />
+                      <Input placeholder="Email" bsSize="lg" type='email' />
                     </FormGroup>
                     <FormGroup>
-                      <Input placeholder="Password" bsSize="lg" />
+                      <Input placeholder="Password" bsSize="lg" type='password' />
                     </FormGroup>
                     <h3>
                       <a href="#">Forgotten password</a>
@@ -77,16 +79,16 @@ export default class FormU extends Component {
                     </div>
                     <h4>or</h4>
                     <FormGroup>
-                      <Input placeholder="First Name" bsSize="lg" />
+                      <Input placeholder="First Name" bsSize="lg"  type='text'/>
                     </FormGroup>
                     <FormGroup>
-                      <Input placeholder="Last Name" bsSize="lg" />
+                      <Input placeholder="Last Name" bsSize="lg" type='text' />
                     </FormGroup>
                     <FormGroup>
-                      <Input placeholder="Email" bsSize="lg" />
+                      <Input placeholder="Email" bsSize="lg" type='email'/>
                     </FormGroup>
                     <FormGroup>
-                      <Input placeholder="Password" bsSize="lg" />
+                      <Input placeholder="Password" bsSize="lg" type='password' />
                     </FormGroup>
                     <div className="check-box">
                       <FormGroup check>

@@ -1,8 +1,8 @@
 import React from 'react';
-import Login from './Login';
+import SignIn from './SignIn';
 
 export const NoMatch = () => (
     <div>
-        <Login />
+        <SignIn />
     </div>
 )
