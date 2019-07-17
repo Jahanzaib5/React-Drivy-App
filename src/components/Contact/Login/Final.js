@@ -15,8 +15,8 @@ export default class Final extends Component {
     e.preventDefault();
     const identity = this.state.identity;
     const password = this.state.password;
-    console.log(this.state.identity);
-    console.log(password);
+    // console.log(this.state.identity);
+    // console.log(password);
 
     var formData = new FormData();
     formData.append("identity", e.target.elements.identity.value);
