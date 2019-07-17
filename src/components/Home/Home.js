@@ -7,6 +7,7 @@ import Fourth from './Fourthpage/Fourthpage';
 import FifthPage from './Work/Fifth';
 import Play from './Advertise/Play';
 import Mobility from './Mobility/Mobi';
+import Moreto from './More/More';
 
 
 export const Home = () => (
@@ -31,6 +32,9 @@ export const Home = () => (
         </div>
         <div>
             <Mobility />
+        </div>
+        <div>
+            <Moreto />
         </div>
         
     </div>

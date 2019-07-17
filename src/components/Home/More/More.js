@@ -22,7 +22,7 @@ export default class Moreto extends React.Component {
           </Col>
           <Col xs="12" className='banner'>
             <a href="https://www.drivy.co.uk/press">
-              <Image src={long} height="35" alt="Apple" />
+              <Image src={long} height="35" alt="Apple" class="responsive"/>
             </a>
           </Col>
         </Row>
