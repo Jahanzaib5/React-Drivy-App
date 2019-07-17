@@ -105,7 +105,7 @@ class SignIn extends Component {
     return (
       <div className="wrapper">
         <div className="form-wrapper">
-          <h1>Log-in to account</h1>
+          <h1>Log-in</h1>
           <form className="forme" onSubmit={this.handleSubmit} noValidate>           
             <div className="email">
               <label htmlFor="identity">Identity</label>
