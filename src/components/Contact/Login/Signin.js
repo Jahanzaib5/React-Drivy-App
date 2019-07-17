@@ -43,14 +43,13 @@ class SignIn extends Component {
       //   api_key: '1234'
 
       // `;
-      console.log("Valid form");
+      // console.log("Valid form");
 
       var formData = new FormData();
       formData.append("identity", this.state.identity);
       formData.append("password", this.state.password);
       formData.append("api_key", "1234");
-      console.log(this.state.identity);
-      console.log(this.state.password);
+
 
 
       fetch(
@@ -69,6 +68,8 @@ class SignIn extends Component {
 
       e.target.elements.identity.value = null;
       e.target.elements.password.value = null;
+      this.state.password = null;
+      this.state.identity = null;
 
       
 

@@ -48,7 +48,7 @@ class Signup extends Component {
       //   api_key: '1234'
 
       // `;
-      console.log("Valid form");
+      // console.log("Valid form");
 
       var formData = new FormData();
       formData.append("username", this.state.username);
@@ -77,6 +77,10 @@ class Signup extends Component {
       e.target.elements.full_name.value = null;
       e.target.elements.phone.value = null;
       e.target.elements.password.value = null;
+      this.state.username = null;
+      this.state.full_name = null;
+      this.state.phone = null;
+      this.state.password = null;
 
       
 
