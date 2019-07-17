@@ -49,6 +49,8 @@ class SignIn extends Component {
       formData.append("identity", this.state.identity);
       formData.append("password", this.state.password);
       formData.append("api_key", "1234");
+      console.log(this.state.identity);
+      console.log(this.state.password);
 
 
       fetch(
