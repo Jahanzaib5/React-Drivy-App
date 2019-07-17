@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./SignIn.css";
 
 const formValid = ({ formErrors, ...rest }) => {
   let valid = true;
@@ -22,14 +21,10 @@ class SignIn extends Component {
     super(props);
 
     this.state = {
-      username: null,
-      full_name: null,
-      phone: null,
+      identity: null,
       password: null,
       formErrors: {
-        username: "",
-        full_name: "",
-        phone: "",
+        identity: "",
         password: ""
       }
     };
@@ -42,7 +37,7 @@ class SignIn extends Component {
       // var store = `
       //   username : ${this.state.username}
       //   full_name: ${this.state.full_name}
-      //   phone: ${this.state.phone}
+      //   identity: ${this.state.identity}
       //   password: ${this.state.password}
       //   usertype: '3'
       //   api_key: '1234'
@@ -51,16 +46,13 @@ class SignIn extends Component {
       console.log("Valid form");
 
       var formData = new FormData();
-      formData.append("username", this.state.username);
-      formData.append("full_name", this.state.full_name);
-      formData.append("phone", this.state.phone);
+      formData.append("identity", this.state.identity);
       formData.append("password", this.state.password);
-      formData.append("usertype", "3");
       formData.append("api_key", "1234");
 
 
       fetch(
-        `http://www.passenger.pk/api/user/sign-up`,
+        `http://www.passenger.pk/api/user/login`,
         {
           method: "post",
           body: formData
@@ -73,9 +65,7 @@ class SignIn extends Component {
           console.log("The data", data);
         });
 
-      e.target.elements.username.value = null;
-      e.target.elements.full_name.value = null;
-      e.target.elements.phone.value = null;
+      e.target.elements.identity.value = null;
       e.target.elements.password.value = null;
 
       
@@ -91,17 +81,9 @@ class SignIn extends Component {
     let formErrors = { ...this.state.formErrors };
 
     switch (name) {
-      case "username":
-        formErrors.username =
-          value.length < 0 ? "minimum 3 characaters required" : "";
-        break;
-      case "full_name":
-        formErrors.full_name =
-          value.length < 3 ? "minimum 3 characaters required" : "";
-        break;
-      case "phone":
-        formErrors.phone =
-          value.length === 234423423343 ? "invalid phone number" : "";
+      case "identity":
+        formErrors.identity =
+          value.length < 4 ? "invalid phone number" : "";
         break;
       case "password":
         formErrors.password =
@@ -120,48 +102,20 @@ class SignIn extends Component {
     return (
       <div className="wrapper">
         <div className="form-wrapper">
-          <h1>Create Account</h1>
-          <form className="forme" onSubmit={this.handleSubmit} noValidate>
-            <div className="firstName">
-              <label htmlFor="username">User Name</label>
-              <input
-                className={formErrors.username.length > 0 ? "error" : null}
-                placeholder="User Name"
-                type="text"
-                name="username"
-                noValidate
-                onChange={this.handleChange}
-              />
-              {formErrors.username.length > 0 && (
-                <span className="errorMessage">{formErrors.username}</span>
-              )}
-            </div>
-            <div className="lastName">
-              <label htmlFor="full_name">Full Name</label>
-              <input
-                className={formErrors.full_name.length > 0 ? "error" : null}
-                placeholder="Full Name"
-                type="text"
-                name="full_name"
-                noValidate
-                onChange={this.handleChange}
-              />
-              {formErrors.full_name.length > 0 && (
-                <span className="errorMessage">{formErrors.full_name}</span>
-              )}
-            </div>
+          <h1>Log-in to account</h1>
+          <form className="forme" onSubmit={this.handleSubmit} noValidate>           
             <div className="email">
-              <label htmlFor="phone">Phone</label>
+              <label htmlFor="identity">Identity</label>
               <input
-                className={formErrors.phone.length > 0 ? "error" : null}
-                placeholder="phone"
+                className={formErrors.identity.length > 0 ? "error" : null}
+                placeholder="identity"
                 type="integer"
-                name="phone"
+                name="identity"
                 noValidate
                 onChange={this.handleChange}
               />
-              {formErrors.phone.length > 0 && (
-                <span className="errorMessage">{formErrors.phone}</span>
+              {formErrors.identity.length > 0 && (
+                <span className="errorMessage">{formErrors.identity}</span>
               )}
             </div>
             <div className="password">
@@ -179,8 +133,7 @@ class SignIn extends Component {
               )}
             </div>
             <div className="createAccount">
-              <button type="submit">Create Account</button>
-              <small> Already Have an Account?</small>
+              <button type="submit">Sign in</button>
             </div>
           </form>
         </div>
