@@ -1,6 +1,6 @@
 import React from 'react';
 import Example from './Form';
-import './FirstPage.css';
+import './FirstPage.css'; 
 
 
 export default class FirstPage extends React.Component {
